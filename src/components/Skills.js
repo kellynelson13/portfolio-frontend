@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section id="skills">
         <div>
-            <h5>Front End</h5>
+            <h4>Front End</h4>
             <ul>
                 <li>JavaScript</li>
                 <li>React.js</li>
@@ -18,7 +18,7 @@ const Skills = () => {
             </ul>
         </div>
         <div>
-            <h5>Back End</h5>
+            <h4>Back End</h4>
             <ul>
                 <li>Node.js</li>
                 <li>Express.js</li>
@@ -31,7 +31,7 @@ const Skills = () => {
             </ul>
         </div>
         <div>
-            <h5>Soft Skills</h5>
+            <h4>Soft Skills</h4>
             <ul>
                 <li>Empathy</li>
                 <li>Communication</li>
