@@ -31,7 +31,7 @@ const Projects = () => {
 
     const loaded = () => {
         return (
-            <div className="list"> 
+            <div id="projects"> 
             <Row md={2} className='g-4'>
             {projects.map(proj => {
             return (
