@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;&display=swap');
 
 * {
   box-sizing: border-box;
@@ -55,13 +56,17 @@
   font-size: 100px;
 }
 .h3 {
-  font-family: "raleway, sans-serif";
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
 }
 #about {
-  background-color: #edf0ef;
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
 }
 #skills {
   height: 100vh;
+  background-image: url("https://imgur.com/LkpeW77.png");
+  background-size: cover;
 }
 
 .about-container {
@@ -70,6 +75,15 @@
   gap: 20px;
   position: relative;
   top: 80px;
+}
+#about-text {
+  margin-right: 40px;
+  
+}
+
+#about img {
+  border-radius: 20px;
+  border:var(--teal) 15px solid;
 }
 #contact {
   height: 100vh;
