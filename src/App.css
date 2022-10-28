@@ -25,11 +25,11 @@
   position: relative;
   top: -80px;
 }
-/* .skills-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-} */
+.skills-container {
+  position: relative;
+  top: 150px;
+  
+}
 
 #image-container img {
   width: 80%;
@@ -43,15 +43,18 @@
   height: 100vh;
 }
 #skills {
-  height: 80vh;
+  height: 100vh;
 }
-#about {
+
+.about-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
+  position: relative;
+  top: 80px;
 }
 #contact {
-  height: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

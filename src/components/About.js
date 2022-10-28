@@ -3,6 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <section id="about" >
+        <div className="about-container">
         <div id="image-container">
             <img src="https://imgur.com/FRqvAlJ.png" alt="headshot"/>
         </div>
@@ -13,6 +14,7 @@ const About = () => {
             <p>I spent 11 years as a nutritionist where I was the head nutrition practitioner, clinic manager, and lead instructor at my company. Several years into this, I built my own practice where I saw 4-5 clients a day while continuing to run things at the clinic I still worked at. All of this experience primed me to be an excellent software engineer as it taught me how to manage and prioritize my many daily tasks while actively assessing my clients' health needs and quickly coming up with action steps.</p>
             <h4>When I'm not coding . . .</h4>
             <p>I love to travel to new places around the world and hike or mountain bike whenever possible. I recently went to Switzerland and spent 5 days hiking all over Zermatt. At home I love to explore local restuarants and craft cocktail bars, or relax at home and play strategy card games.</p>
+        </div>
         </div>
     </section>
   )
