@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Spinner from 'react-bootstrap/Spinner';
 import Card from 'react-bootstrap/Card';
-
+import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap';
 
@@ -29,20 +29,31 @@ const Projects = () => {
 
     const loaded = () => {
         return (
-            <Container>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={projects[0].image} />
-              <Card.Body>
-                <Card.Title>{projects[0].name}</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-            </Container>
-          );
+            
+            projects.map(proj => {
+            return (
+                <Card xs={6} style={{ width: '30rem'}}>
+                    <Card.Img variant="top" src={proj.image} />
+                    <Card.Body>
+                        <Card.Title>{proj.name}</Card.Title>
+                        <Card.Text>{proj.description}</Card.Text>
+                    </Card.Body>
+                    <ListGroup className="list-group-flush">
+                        <ListGroup.Item>{proj.skills[0]}</ListGroup.Item>
+                        <ListGroup.Item>{proj.skills[1]}</ListGroup.Item>
+                        <ListGroup.Item>{proj.skills[2]}</ListGroup.Item>
+                    </ListGroup>
+                    <Card.Body>
+                        <Button href={proj.git}>GitHub Repo</Button>
+                        <Button className="m-3" href={proj.live}>Live Demo</Button>
+                    </Card.Body>
+                </Card>
+            )
+        })
+        
+        )
+            
+          
     }
 
 
