@@ -17,10 +17,15 @@
 .App {
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 
 
 #image-container img {
   width: 30%;
+}
+#skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

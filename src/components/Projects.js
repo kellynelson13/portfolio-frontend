@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 
 
@@ -29,10 +31,12 @@ const Projects = () => {
 
     const loaded = () => {
         return (
-            
-            projects.map(proj => {
+            <div className="list"> 
+            <Row md={2} className='g-4'>
+            {projects.map(proj => {
             return (
-                <Card xs={6} style={{ width: '30rem'}}>
+                <Col>
+                <Card style={{ width: '30rem', marginLeft: "70px"}}>
                     <Card.Img variant="top" src={proj.image} />
                     <Card.Body>
                         <Card.Title>{proj.name}</Card.Title>
@@ -48,9 +52,12 @@ const Projects = () => {
                         <Button className="m-3" href={proj.live}>Live Demo</Button>
                     </Card.Body>
                 </Card>
+                </Col>
+    
             )
-        })
-        
+        })}
+        </Row>
+        </div>
         )
             
           
