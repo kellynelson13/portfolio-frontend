@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section>
+    <section id="about" >
         <div id="image-container">
             <img src="https://imgur.com/FRqvAlJ.png" alt="headshot"/>
         </div>

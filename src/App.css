@@ -20,12 +20,41 @@
   text-align: center;
 }
 
-
+.devsk-h1 {
+  margin-top: 0px;
+  border: solid black 1px;
+  position: relative;
+  top: -80px;
+}
+/* .skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+} */
 
 #image-container img {
-  width: 30%;
+  width: 80%;
 }
-#skills {
+.skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+#home, #about {
+  height: 100vh;
+}
+#skills {
+  height: 80vh;
+}
+#about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+#contact {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
