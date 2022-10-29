@@ -38,7 +38,9 @@ const Projects = () => {
             return (
                 <Col>
                 <Card style={{ width: '30rem', marginLeft: "70px", boxShadow: "0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
-                    <Card.Img variant="top" src={proj.image} />
+                    <div className="overflow">
+                    <Card.Img className="img-top" variant="top" src={proj.image} />
+                    </div>
                     <Card.Body style={{ backgroundColor: "white"}}>
                         <Card.Title>{proj.name}</Card.Title>
                         <Card.Text>{proj.description}</Card.Text>
@@ -46,8 +48,8 @@ const Projects = () => {
                     </Card.Body>
                     
                     <Card.Body style={{ backgroundColor: "white" }}>
-                        <Button style={{ backgroundColor: "white", color: "var(--teal)",  border: "2px solid var(--teal)"}} className="button" href={proj.git}>GitHub Repo</Button>
-                        <Button style={{ backgroundColor: "white", color: "var(--teal)",  border: "2px solid var(--teal)"}} className="button m-3" href={proj.live}>Live Demo</Button>
+                        <Button style={{ backgroundColor: "white", color: "var(--teal)",  border: "2px solid var(--teal)"}} className="button1" href={proj.git}>GitHub Repo</Button>
+                        <Button style={{ backgroundColor: "white", color: "var(--teal)",  border: "2px solid var(--teal)"}} className="button1 m-3" href={proj.live}>Live Demo</Button>
                     </Card.Body>
                 </Card>
                 </Col>
