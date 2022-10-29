@@ -91,8 +91,8 @@
 }
 
 #about img {
-  border-radius: 20px;
-  border:var(--teal) 15px solid;
+  border-radius: 100px;
+  border:var(--teal) 10px solid;
 }
 #contact {
   height: 100vh;
@@ -146,3 +146,8 @@ nav a.active {
 /* .button:hover {
   background-color: #d5e9dd;
 } */
+
+span {
+  color: rgb(207, 64, 88);
+  
+}
