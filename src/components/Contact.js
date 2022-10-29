@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../assets/resume/resume.pdf"
+import CV from "../assets/resume/Kelly-Nelson-Resume.pdf"
 import {BsLinkedin, BsGithub} from 'react-icons/bs'
 import {MdOutlineMail} from 'react-icons/md'
 import {GrDocumentText} from 'react-icons/gr'
