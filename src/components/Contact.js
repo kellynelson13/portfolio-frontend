@@ -44,15 +44,16 @@ const Contact = () => {
           >
             <BsLinkedin /> kelly-nelson-developer
           </a>
-          <a className="a" href="" target="_blank">
+          <p  className="email">
             <MdOutlineMail /> kelnel86@gmail.com
-          </a>
+          </p>
           <a className="a" href={CV} download>
             <GrDocumentText /> Resume
           </a>
         </div>
       </div>
       <div className="form-div">
+        <h2>Email Me:</h2>
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" />

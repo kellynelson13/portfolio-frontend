@@ -98,9 +98,10 @@
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 #contact {
-  height: 100vh;
+  height: 70vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-image: url("https://imgur.com/x805nff.png");
  
   /* display: flex;
   justify-content: center;
@@ -108,6 +109,10 @@
   flex-direction: column; */
   border: black 1px solid;
 }
+.contact-div {
+  margin-top: 60px;
+}
+
 
 nav {
   background: rgba(145, 122, 131, 0.623);
@@ -191,6 +196,10 @@ span {
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
+.email {
+  color: var(--teal);
+  font-size: 18px;
+}
 
 .a:before {
   content: '';
@@ -213,16 +222,17 @@ span {
 }
 
 /* .contact-div {
-  position: relative;
-  bottom: -160px;
+  position: relative; 
+   bottom: -160px; 
+  border: black solid 1px;
   height: 100vh;
   background-image: url("https://imgur.com/x805nff.png");
   padding-top: 50px;
   background-color: var(--cloud);
   display: flex;
   flex-direction: column;
-  width: 100%;
-} */
+  width: 100%; 
+}  */
 
 
 form {
@@ -270,4 +280,14 @@ form {
     background: rgb(249, 105, 14);
     color: white;
     border: none;
+    width: 25%;
+    
+  }
+  .form-div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-right: 20px;
   }
