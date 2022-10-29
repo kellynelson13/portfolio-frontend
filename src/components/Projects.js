@@ -48,8 +48,8 @@ const Projects = () => {
                     </Card.Body>
                     
                     <Card.Body style={{ backgroundColor: "white" }}>
-                        <Button style={{ backgroundColor: "white", color: "var(--teal)",  border: "2px solid var(--teal)"}} className="button1" href={proj.git}>GitHub Repo</Button>
-                        <Button style={{ backgroundColor: "white", color: "var(--teal)",  border: "2px solid var(--teal)"}} className="button1 m-3" href={proj.live}>Live Demo</Button>
+                        <Button variant="outline-secondary" className="button1" href={proj.git}>GitHub Repo</Button>
+                        <Button variant="outline-secondary" className="button1 m-3" href={proj.live}>Live Demo</Button>
                     </Card.Body>
                 </Card>
                 </Col>
