@@ -30,7 +30,7 @@
 }
 .skills-container {
   position: relative;
-  top: 150px;
+  top: 200px;
   
 }
 
@@ -54,7 +54,7 @@
   height: 100vh;
 }
 #home {
-  background-image: url(https://imgur.com/ZbTxS3K.png);
+  background-image: url(https://imgur.com/o9yV2lK.png);
   background-size: cover;
   display:flex;
   flex-direction: column;
@@ -75,7 +75,7 @@
 }
 #skills {
   height: 100vh;
-  background-image: url("https://imgur.com/LkpeW77.png");
+  background-image: url("https://imgur.com/x805nff.png");
   background-size: cover;
 }
 
@@ -208,12 +208,11 @@ span {
   width:100%;
 }
 
-
 .contact-div {
   position: relative;
   bottom: -160px;
   height: 50vh;
-  
+  background-image: url("https://imgur.com/x805nff.png");
   padding-top: 50px;
   background-color: var(--cloud);
   display: flex;
