@@ -26,6 +26,7 @@
   margin-top: 0px;
   position: relative;
   top: -80px;
+  font-family: 'Raleway', sans-serif;
 }
 .skills-container {
   position: relative;
@@ -39,6 +40,14 @@
 .skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.skill-div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 #home, #about {
@@ -94,7 +103,7 @@
 }
 
 nav {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(145, 122, 131, 0.623);
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
@@ -119,9 +128,21 @@ nav a {
 
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
+  color: black;
 }
 
 nav a.active {
   background: rgba(0, 0, 0, 0.536);
   color: white;
 }
+
+#projects {
+  position:relative;
+  top: 60px;
+  margin-bottom: 30px;
+  
+}
+
+/* .button:hover {
+  background-color: #d5e9dd;
+} */

@@ -38,18 +38,18 @@ const Projects = () => {
                 <Col>
                 <Card style={{ width: '30rem', marginLeft: "70px"}}>
                     <Card.Img variant="top" src={proj.image} />
-                    <Card.Body>
+                    <Card.Body style={{ backgroundColor: "var(--cloud)"}}>
                         <Card.Title>{proj.name}</Card.Title>
                         <Card.Text>{proj.description}</Card.Text>
                     </Card.Body>
-                    <ListGroup className="list-group-flush">
-                        <ListGroup.Item>{proj.skills[0]}</ListGroup.Item>
-                        <ListGroup.Item>{proj.skills[1]}</ListGroup.Item>
-                        <ListGroup.Item>{proj.skills[2]}</ListGroup.Item>
+                    <ListGroup  className="list-group-flush">
+                        <ListGroup.Item style={{ backgroundColor: "var(--mint)" }}>{proj.skills[0]}</ListGroup.Item>
+                        <ListGroup.Item style={{ backgroundColor: "var(--pink)" }}>{proj.skills[1]}</ListGroup.Item>
+                        <ListGroup.Item style={{ backgroundColor: "var(--mint)" }}>{proj.skills[2]}</ListGroup.Item>
                     </ListGroup>
-                    <Card.Body>
-                        <Button href={proj.git}>GitHub Repo</Button>
-                        <Button className="m-3" href={proj.live}>Live Demo</Button>
+                    <Card.Body style={{ backgroundColor: "var(--cloud)" }}>
+                        <Button style={{ backgroundColor: "var(--teal)"}} className="button" href={proj.git}>GitHub Repo</Button>
+                        <Button style={{ backgroundColor: "var(--teal)"}} className="button m-3" href={proj.live}>Live Demo</Button>
                     </Card.Body>
                 </Card>
                 </Col>
