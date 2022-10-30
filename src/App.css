@@ -107,10 +107,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column; */
-  border: black 1px solid;
+  
 }
 .contact-div {
   margin-top: 60px;
+  display:flex;
+  justify-content: center;
+  padding-top: 20px;
+  
 }
 
 
@@ -152,7 +156,7 @@ nav a.active {
   position:relative;
   top: 60px;
   margin-bottom: 170px;
-  border: solid black 1px;
+  
   
 }
 
@@ -185,11 +189,13 @@ span {
   );
   background-size: 200% 100%;
   margin: 40px;
+  width: max-content;
   text-decoration: none;
   color: var(--teal);
   font-size: 18px;
   background-position: -100%;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 5px 0;
   position: relative;
   -webkit-background-clip: text;
@@ -199,6 +205,9 @@ span {
 .email {
   color: var(--teal);
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
 }
 
 .a:before {
@@ -251,7 +260,7 @@ form {
     border: 1px solid rgb(220, 220, 220);
   }
   input:focus {
-    border: 2px solid rgba(0, 206, 158, 1);
+    border: 2px solid rgb(1, 71, 68);
   }
 
   textarea {
@@ -267,7 +276,7 @@ form {
   }
 
     textarea:focus {
-      border: 2px solid rgba(0, 206, 158, 1);
+      border: 2px solid rgb(1, 71, 68);
     }
     
   
@@ -277,17 +286,42 @@ form {
   input[type="submit"] {
     margin-top: 2rem;
     cursor: pointer;
-    background: rgb(249, 105, 14);
+    background: var(--teal);
     color: white;
     border: none;
     width: 25%;
     
   }
+  input[type="submit"]:hover {
+    color: var(--teal);
+    background-color: var(--mint);
+    border: solid 2px var(--teal);
+  }
+
   .form-div{
-    margin-top: 40px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     margin-right: 20px;
+  }
+  
+  #icon-div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: left;
+
+    
+  }
+
+  #contact-header {
+    background-image: url("https://imgur.com/x805nff.png");
+    margin-bottom: -10px;
+    padding-top: 20px;
+  }
+
+  #footer {
+    text-align: right;
   }

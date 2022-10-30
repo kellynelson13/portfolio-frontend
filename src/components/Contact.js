@@ -26,34 +26,10 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <div className="contact-div">
-        <h1>Let's get in touch.</h1>
-        <div id="icon-div">
-          <a
-            className="a"
-            href="https://github.com/kellynelson13"
-            target="_blank"
-          >
-            <BsGithub /> kellynelson13
-          </a>
-          <a
-            className="a"
-            href="https://www.linkedin.com/in/kelly-nelson-developer/
-"
-            target="_blank"
-          >
-            <BsLinkedin /> kelly-nelson-developer
-          </a>
-          <p  className="email">
-            <MdOutlineMail /> kelnel86@gmail.com
-          </p>
-          <a className="a" href={CV} download>
-            <GrDocumentText /> Resume
-          </a>
-        </div>
-      </div>
-      <div className="form-div">
-        <h2>Email Me:</h2>
+        
+
+<div className="form-div">
+        
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="user_name" />
@@ -61,9 +37,39 @@ const Contact = () => {
           <input type="email" name="user_email" />
           <label>Message</label>
           <textarea name="message" />
-          <input type="submit" value="Send" />
+          <input id="submit" type="submit" value="Send" />
         </form>
       </div>
+
+      <div className="contact-div">
+        
+        <div id="icon-div">
+            <ul>
+          <li><a
+            className="a"
+            href="https://github.com/kellynelson13"
+            target="_blank"
+          >
+            <BsGithub /> kellynelson13
+          </a></li>
+          <li><a
+            className="a"
+            href="https://www.linkedin.com/in/kelly-nelson-developer/
+"
+            target="_blank"
+          >
+            <BsLinkedin /> kelly-nelson-developer
+          </a></li>
+          <li><p  className="email">
+            <MdOutlineMail /> kelnel86@gmail.com
+          </p></li>
+          <li><a className="a" href={CV} download>
+            <GrDocumentText /> Resume
+          </a></li>
+          </ul>
+        </div>
+      </div>
+      
     </section>
   );
 };
