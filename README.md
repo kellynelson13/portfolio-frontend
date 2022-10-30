@@ -21,5 +21,5 @@ Projects:
 ![Projects](src/photos/Screen%20Shot%202022-10-30%20at%201.56.23%20PM.png)
 
 # Get started
-Click [here]() to view Kelly's Portfolio.
+Click [here](https://635ed633307d4408ca69b745--courageous-chimera-e4b961.netlify.app/#about) to view Kelly's Portfolio.
 
