@@ -74,7 +74,7 @@
   
 }
 #skills {
-  height: 100vh;
+  height: 80vh;
   background-image: url("https://imgur.com/x805nff.png");
   background-size: cover;
 }
@@ -305,6 +305,7 @@ form {
     justify-content: center;
     align-content: center;
     margin-right: 20px;
+    margin-bottom: 60px;
   }
   
   #icon-div {
