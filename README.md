@@ -13,6 +13,12 @@ Welcome to Kelly's portfolio!  Here you will learn everything you need to know a
 - JSX
 
 # Screenshots
+Home Page:
+![Home page](src/photos/Screen%20Shot%202022-10-30%20at%201.55.40%20PM.png)
+About Section:
+![About Kelly](src/photos/Screen%20Shot%202022-10-30%20at%201.55.56%20PM.png)
+Projects:
+![Projects](src/photos/Screen%20Shot%202022-10-30%20at%201.56.23%20PM.png)
 
 # Get started
 Click [here]() to view Kelly's Portfolio.
