@@ -21,6 +21,7 @@ const Contact = () => {
                 console.log(error.text);
             }); 
             e.target.reset();
+            alert("Your message was sent!")
         };
 
 
